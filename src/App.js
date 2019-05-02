@@ -8,7 +8,7 @@ function App() {
 		<div className="App">
 			<NavBar />
 			<header className="App-header">
-				<p>Welcome to Hong Kong Hidden-A-Gender 2019!</p>
+				<h1>Welcome to Hong Kong Hidden-A-Gender 2019!</h1>
 			</header>
 		</div>
 	)

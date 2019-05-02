@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
 
 class NavBar extends Component {
 	render() {
@@ -22,28 +21,28 @@ class NavBar extends Component {
 				<div className="collapse navbar-collapse" id="navbarNav">
 					<ul className="navbar-nav">
 						<li className="nav-item">
-							<a className="nav-link" href="#">
+							<a className="nav-link" href="/schedule">
 								Schedule
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#">
+							<a className="nav-link" href="/teams">
 								Teams
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#">
+							<a className="nav-link" href="/fields">
 								Field Location
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#">
+							<a className="nav-link" href="/party">
 								Party Location
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#">
-								Contacts
+							<a className="nav-link" href="/contact">
+								Contact Us
 							</a>
 						</li>
 					</ul>
