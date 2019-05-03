@@ -2,11 +2,27 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
 const links = [
-	{ href: '/results', name: 'Results' },
 	{ href: '/spirit', name: 'Spirit Scores' },
 	{ href: '/field', name: 'Field Location' },
 	{ href: '/party', name: 'Party Location' },
 	{ href: '/contact', name: 'Contact Us' },
+]
+
+const dropdownLinks = [
+	{
+		category: 'Schedule',
+		href1: '/schedule/saturday',
+		href2: '/schedule/sunday',
+		name1: 'Saturday',
+		name2: 'Sunday',
+	},
+	{
+		category: 'Results',
+		href1: '/results/opens',
+		href2: 'results/womens',
+		name1: 'Opens',
+		name2: "Women's",
+	},
 ]
 class NavBar extends Component {
 	render() {
@@ -28,27 +44,29 @@ class NavBar extends Component {
 				</button>
 				<div className="collapse navbar-collapse" id="navbarNav">
 					<ul className="navbar-nav">
-						<li className="nav-item dropdown">
-							<Link
-								className="nav-link dropdown-toggle"
-								to="#"
-								id="navbarDropdown"
-								role="button"
-								data-toggle="dropdown"
-								aria-haspopup="true"
-								aria-expanded="false"
-							>
-								Schedule
-							</Link>
-							<div className="dropdown-menu" aria-labelledby="navbarDropdown">
-								<Link to="/schedule/saturday" className="dropdown-item">
-									Saturday
+						{dropdownLinks.map(link => (
+							<li className="nav-item dropdown">
+								<Link
+									className="nav-link dropdown-toggle"
+									to="#"
+									id="navbarDropdown"
+									role="button"
+									data-toggle="dropdown"
+									aria-haspopup="true"
+									aria-expanded="false"
+								>
+									{link.category}
 								</Link>
-								<Link to="/schedule/sunday" className="dropdown-item">
-									Sunday
-								</Link>
-							</div>
-						</li>
+								<div className="dropdown-menu" aria-labelledby="navbarDropdown">
+									<Link to={link.href1} className="dropdown-item">
+										{link.name1}
+									</Link>
+									<Link to={link.href2} className="dropdown-item">
+										{link.name2}
+									</Link>
+								</div>
+							</li>
+						))}
 						{links.map(link => (
 							<li className="nav-item">
 								<Link className="nav-link" to={link.href}>
