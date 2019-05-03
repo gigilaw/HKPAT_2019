@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
 const links = [
-	{ href: '/schedule', name: 'Schedule' },
 	{ href: '/teams', name: 'Teams' },
 	{ href: '/field', name: 'Field Location' },
 	{ href: '/party', name: 'Party Location' },
@@ -28,6 +27,27 @@ class NavBar extends Component {
 				</button>
 				<div className="collapse navbar-collapse" id="navbarNav">
 					<ul className="navbar-nav">
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdown"
+								role="button"
+								data-toggle="dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+							>
+								Schedule
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="/schedule/saturday">
+									Saturday
+								</a>
+								<a class="dropdown-item" href="/schedule/sunday">
+									Sunday
+								</a>
+							</div>
+						</li>
 						{links.map(link => (
 							<li className="nav-item">
 								<a className="nav-link" href={link.href}>
