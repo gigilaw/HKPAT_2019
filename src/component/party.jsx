@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
 const partyDetails = [
-	{ message: 'Time: May 11th, 9:00pm - 1:00am' },
 	{ message: 'Closest MTR Exit: Jordan B1' },
+	{ message: 'Time: May 11th, 9:00pm - 1:00am' },
 	{ message: 'Few drinks provided but eat before~' },
 ]
 const locationDetails = [
@@ -43,13 +43,13 @@ class Party extends Component {
 							</div>
 						))}
 						{partyDetails.map(party => (
-							<div className="divstyle">
+							<div>
 								<h4>{party.message}</h4>
 							</div>
 						))}
 					</div>
 					<div className="col-lg-6">
-						<div className="divstyle">
+						<div className="divStyle">
 							<h1>Party Theme</h1>
 						</div>
 						<div>
