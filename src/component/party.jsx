@@ -9,6 +9,24 @@ const divStyle = {
 	marginBottom: '40px',
 }
 
+const partyDetails = [
+	{ message: 'Time: May 11th, 9:00pm - 1:00am' },
+	{ message: 'Closest MTR Exit: Jordan B1' },
+	{ message: 'Few drinks provided but eat before~' },
+]
+const locationDetails = [
+	{
+		name: 'Terrible Baby @ Eaton Hotel',
+		address: '4/F, 380 Nathan Rd, Jordan',
+	},
+	{
+		name: 'Terrible Baby @ 香港逸東酒店',
+		address: '佐敦 彌敦道 380號 4/F',
+	},
+]
+const map =
+	'https://www.google.com/maps?q=terrible+baby+eaton+hotel&um=1&ie=UTF-8&sa=X&ved=0ahUKEwii2eTw4f7hAhUZ7mEKHeRnCZMQ_AUIDigB'
+
 class Party extends Component {
 	render() {
 		return (
@@ -18,43 +36,26 @@ class Party extends Component {
 						<div style={divStyle}>
 							<h1>Party Location</h1>
 						</div>
-						<h4>Terrible Baby @ Eaton Hotel</h4>
-						<div style={divStyle}>
-							<span style={spanStyle}>
-								<a
-									className="inline"
-									href="https://www.google.com/maps?q=terrible+baby+eaton+hotel&um=1&ie=UTF-8&sa=X&ved=0ahUKEwii2eTw4f7hAhUZ7mEKHeRnCZMQ_AUIDigB"
-								>
-									<i class="fas fa-map-marker-alt fa-2x" />{' '}
+						{locationDetails.map(location => (
+							<div>
+								<h4>{location.name}</h4>
+								<div style={divStyle}>
 									<span style={spanStyle}>
-										<h5 className="inline">4/F, 380 Nathan Rd, Jordan</h5>
+										<a href={map}>
+											<i class="fas fa-map-marker-alt fa-2x" />
+											<span style={spanStyle}>
+												<h5 className="inline address">{location.address}</h5>
+											</span>
+										</a>
 									</span>
-								</a>
-							</span>
-						</div>
-						<h4>Terrible Baby @ 香港逸東酒店</h4>
-						<div style={divStyle}>
-							<span style={spanStyle}>
-								<a
-									className="inline"
-									href="https://www.google.com/maps?q=terrible+baby+eaton+hotel&um=1&ie=UTF-8&sa=X&ved=0ahUKEwii2eTw4f7hAhUZ7mEKHeRnCZMQ_AUIDigB"
-								>
-									<i class="fas fa-map-marker-alt fa-2x" />{' '}
-									<span style={spanStyle}>
-										<h5 className="inline">佐敦 彌敦道 380號 4/F</h5>
-									</span>
-								</a>
-							</span>
-						</div>
-						<div style={divStyle}>
-							<h4>Time: May 11th, 9:00pm - 1:00am</h4>
-						</div>
-						<div style={divStyle}>
-							<h4>Closest MTR Exit: Jordan B1</h4>
-						</div>
-						<div style={divStyle}>
-							<h4>Few drinks provided but eat before~</h4>
-						</div>
+								</div>
+							</div>
+						))}
+						{partyDetails.map(party => (
+							<div style={divStyle}>
+								<h4>{party.message}</h4>
+							</div>
+						))}
 					</div>
 					<div className="col-lg-6">
 						<div style={divStyle}>

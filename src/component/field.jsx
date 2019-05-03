@@ -27,7 +27,9 @@ class Field extends Component {
 								>
 									<i class="fas fa-map-marker-alt fa-2x" />{' '}
 									<span style={spanStyle}>
-										<h5 className="inline">63 Boundary St, Prince Edward</h5>
+										<h5 className="inline address">
+											63 Boundary St, Prince Edward
+										</h5>
 									</span>
 								</a>
 							</span>
@@ -41,7 +43,7 @@ class Field extends Component {
 								>
 									<i class="fas fa-map-marker-alt fa-2x" />{' '}
 									<span style={spanStyle}>
-										<h5 className="inline">36號 界限街 太子</h5>
+										<h5 className="inline address">太子 界限街 36號</h5>
 									</span>
 								</a>
 							</span>

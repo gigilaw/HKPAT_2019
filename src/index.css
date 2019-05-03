@@ -43,3 +43,7 @@ code {
 #DD {
 	max-width: 100%;
 }
+
+.address {
+	text-decoration: underline;
+}
