@@ -10,9 +10,9 @@ class NavBar extends Component {
 	render() {
 		return (
 			<nav className="navbar navbar-expand-lg navbar-light bg-light">
-				<a className="navbar-brand" href="/">
+				<Link className="navbar-brand" to="/">
 					HKHAG2019
-				</a>
+				</Link>
 				<button
 					className="navbar-toggler"
 					type="button"
@@ -26,10 +26,10 @@ class NavBar extends Component {
 				</button>
 				<div className="collapse navbar-collapse" id="navbarNav">
 					<ul className="navbar-nav">
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
+						<li className="nav-item dropdown">
+							<Link
+								className="nav-link dropdown-toggle"
+								to="#"
 								id="navbarDropdown"
 								role="button"
 								data-toggle="dropdown"
@@ -37,21 +37,21 @@ class NavBar extends Component {
 								aria-expanded="false"
 							>
 								Schedule
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="/schedule/saturday">
+							</Link>
+							<div className="dropdown-menu" aria-labelledby="navbarDropdown">
+								<Link to="/schedule/saturday" className="dropdown-item">
 									Saturday
-								</a>
-								<a class="dropdown-item" href="/schedule/sunday">
+								</Link>
+								<Link to="/schedule/sunday" className="dropdown-item">
 									Sunday
-								</a>
+								</Link>
 							</div>
 						</li>
 						{links.map(link => (
 							<li className="nav-item">
-								<a className="nav-link" href={link.href}>
+								<Link className="nav-link" to={link.href}>
 									{link.name}
-								</a>
+								</Link>
 							</li>
 						))}
 					</ul>
