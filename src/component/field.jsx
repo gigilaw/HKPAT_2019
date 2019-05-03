@@ -33,7 +33,7 @@ class Field extends Component {
 							</span>
 						</div>
 						<h4>大坑東遊樂場</h4>
-						<div>
+						<div style={divStyle}>
 							<span style={spanStyle}>
 								<a
 									className="inline"
@@ -45,6 +45,9 @@ class Field extends Component {
 									</span>
 								</a>
 							</span>
+						</div>
+						<div style={divStyle}>
+							<h4>Closest MTR Exit: Prince Edward A1</h4>
 						</div>
 					</div>
 					<div className="col-lg-6">
