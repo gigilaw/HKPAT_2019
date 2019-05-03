@@ -14,9 +14,9 @@ class Field extends Component {
 		return (
 			<div className="container title">
 				<div className="row">
-					<div className="col">
+					<div className="col-lg-6">
 						<div style={divStyle}>
-							<h1>Fields</h1>
+							<h1>Field Location</h1>
 						</div>
 						<h4>Tai Hang Tung Recreation Ground</h4>
 						<div style={divStyle}>
@@ -47,8 +47,17 @@ class Field extends Component {
 							</span>
 						</div>
 					</div>
-					<div className="col">
-						<h1>Field Layout</h1>
+					<div className="col-lg-6">
+						<div style={divStyle}>
+							<h1>Field Layout</h1>
+						</div>
+						<div>
+							<img
+								id="layout"
+								src="http://i64.tinypic.com/im555w.png"
+								alt="Field Layout"
+							/>
+						</div>
 					</div>
 				</div>
 			</div>
