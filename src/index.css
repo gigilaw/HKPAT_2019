@@ -47,3 +47,12 @@ code {
 .address {
 	text-decoration: underline;
 }
+
+.spanStyle {
+	display: inline-block;
+	color: white;
+}
+
+.divStyle {
+	margin-bottom: 40px;
+}

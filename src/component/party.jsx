@@ -1,14 +1,5 @@
 import React, { Component } from 'react'
 
-const spanStyle = {
-	display: 'inline-block',
-	color: 'white',
-}
-
-const divStyle = {
-	marginBottom: '40px',
-}
-
 const partyDetails = [
 	{ message: 'Time: May 11th, 9:00pm - 1:00am' },
 	{ message: 'Closest MTR Exit: Jordan B1' },
@@ -33,17 +24,17 @@ class Party extends Component {
 			<div className="container title">
 				<div className="row">
 					<div className="col-lg-6">
-						<div style={divStyle}>
+						<div className="divStyle">
 							<h1>Party Location</h1>
 						</div>
 						{locationDetails.map(location => (
 							<div>
 								<h4>{location.name}</h4>
-								<div style={divStyle}>
-									<span style={spanStyle}>
+								<div className="divStyle">
+									<span className="spanStyle">
 										<a href={map}>
 											<i class="fas fa-map-marker-alt fa-2x" />
-											<span style={spanStyle}>
+											<span className="spanStyle">
 												<h5 className="inline address">{location.address}</h5>
 											</span>
 										</a>
@@ -52,13 +43,13 @@ class Party extends Component {
 							</div>
 						))}
 						{partyDetails.map(party => (
-							<div style={divStyle}>
+							<div className="divstyle">
 								<h4>{party.message}</h4>
 							</div>
 						))}
 					</div>
 					<div className="col-lg-6">
-						<div style={divStyle}>
+						<div className="divstyle">
 							<h1>Party Theme</h1>
 						</div>
 						<div>
