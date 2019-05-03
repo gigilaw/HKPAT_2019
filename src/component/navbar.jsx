@@ -5,6 +5,7 @@ const links = [
 	{ href: '/schedule', name: 'Schedule' },
 	{ href: '/teams', name: 'Teams' },
 	{ href: '/field', name: 'Field Location' },
+	{ href: '/party', name: 'Party Location' },
 	{ href: '/contact', name: 'Contact Us' },
 ]
 class NavBar extends Component {
