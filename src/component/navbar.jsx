@@ -1,6 +1,12 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
+const links = [
+	{ href: '/schedule', name: 'Schedule' },
+	{ href: '/teams', name: 'Teams' },
+	{ href: '/field', name: 'Field Location' },
+	{ href: '/contact', name: 'Contact Us' },
+]
 class NavBar extends Component {
 	render() {
 		return (
@@ -21,31 +27,13 @@ class NavBar extends Component {
 				</button>
 				<div className="collapse navbar-collapse" id="navbarNav">
 					<ul className="navbar-nav">
-						<li className="nav-item">
-							<a className="nav-link" href="/schedule">
-								Schedule
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="/teams">
-								Teams
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="/field">
-								Field Location
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="/party">
-								Party Location
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="/contact">
-								Contact Us
-							</a>
-						</li>
+						{links.map(link => (
+							<li className="nav-item">
+								<a className="nav-link" href={link.href}>
+									{link.name}
+								</a>
+							</li>
+						))}
 					</ul>
 				</div>
 			</nav>
