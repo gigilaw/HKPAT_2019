@@ -4,7 +4,7 @@ const scheduleStyle = {
 	maxWidth: '70%',
 	margin: '5% auto',
 }
-class Schedule extends Component {
+class sunSchedule extends Component {
 	render() {
 		return (
 			<div className="container-fluid">
@@ -22,4 +22,4 @@ class Schedule extends Component {
 	}
 }
 
-export default Schedule
+export default sunSchedule
