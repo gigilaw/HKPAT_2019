@@ -19,7 +19,7 @@ const dropdownLinks = [
 	{
 		category: 'Results',
 		href1: '/results/opens',
-		href2: 'results/womens',
+		href2: '/results/womens',
 		name1: 'Opens',
 		name2: "Women's",
 	},
