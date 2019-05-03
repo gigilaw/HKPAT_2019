@@ -1,13 +1,17 @@
 import React, { Component } from 'react'
-import GoogleApiWrapper from '../component/map'
 
 class Field extends Component {
 	render() {
 		return (
-			<div className="container">
-				<h1>Fields</h1>
-				<GoogleApiWrapper />
-				<div />
+			<div className="container title">
+				<div className="row">
+					<div className="col">
+						<h1>Fields</h1>
+					</div>
+					<div className="col">
+						<h1>Field Layout</h1>
+					</div>
+				</div>
 			</div>
 		)
 	}
