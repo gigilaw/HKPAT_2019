@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
 const links = [
+	{ href: '/results', name: 'Results' },
+	{ href: '/spirit', name: 'Spirit Scores' },
 	{ href: '/field', name: 'Field Location' },
 	{ href: '/party', name: 'Party Location' },
 	{ href: '/contact', name: 'Contact Us' },
