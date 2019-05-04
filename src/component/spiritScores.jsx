@@ -2,7 +2,13 @@ import React, { Component } from 'react'
 
 class Spirit extends Component {
 	render() {
-		return <h1>Spirit Scores</h1>
+		return (
+			<div>
+				<div className="title">
+					<h1>Coming soon~</h1>
+				</div>
+			</div>
+		)
 	}
 }
 
