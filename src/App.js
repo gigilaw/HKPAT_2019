@@ -8,7 +8,7 @@ import satSchedule from './component/schedule/satSchedule'
 import sunSchedule from './component/schedule/sunSchedule'
 import ResultsW from './component/results/resultsW'
 import ResultsO from './component/results/resultsO'
-import spirit from './component/spiritScores'
+import Spirit from './component/spiritScores'
 import Field from './component/field'
 import Party from './component/party'
 import Contact from './component/contacts'
@@ -24,7 +24,7 @@ function App() {
 					<Route exact path="/schedule/sunday" component={sunSchedule} />
 					<Route exact path="/results/opens" component={ResultsO} />
 					<Route exact path="/results/womens" component={ResultsW} />
-					<Route exact path="/spirit" component={spirit} />
+					<Route exact path="/spirit" component={Spirit} />
 					<Route exact path="/field" component={Field} />
 					<Route exact path="/party" component={Party} />
 					<Route exact path="/contact" component={Contact} />
