@@ -55,8 +55,8 @@ class Party extends Component {
 						<div>
 							<img
 								id="DD"
-								src="http://i67.tinypic.com/35lugiq.jpg"
-								alt="Field Layout"
+								src="https://s3-ap-southeast-1.amazonaws.com/ultimateproject/HKHAG2019/Dynamic+duo.jpg"
+								alt="Party Theme"
 							/>
 						</div>
 					</div>

@@ -46,7 +46,7 @@ class Field extends Component {
 						<div>
 							<img
 								id="layout"
-								src="http://i64.tinypic.com/im555w.png"
+								src="https://s3-ap-southeast-1.amazonaws.com/ultimateproject/HKHAG2019/Field+Layout.png"
 								alt="Field Layout"
 							/>
 						</div>
