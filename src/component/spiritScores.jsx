@@ -4,8 +4,8 @@ class Spirit extends Component {
 	render() {
 		return (
 			<div>
-				<div className="title">
-					<h1>Coming soon~</h1>
+				<div className="container title">
+					<h2>Spirt Scores</h2>
 				</div>
 			</div>
 		)

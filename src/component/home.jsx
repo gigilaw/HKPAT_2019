@@ -11,7 +11,7 @@ class Home extends Component {
 	render() {
 		return (
 			<div>
-				<div className="container title">
+				<div className="container homeTitle">
 					<div className="row">
 						<div className="col align">
 							<img className="title img-fluid" src={title} alt="title" />

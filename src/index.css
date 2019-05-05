@@ -83,8 +83,9 @@ code {
 	margin-bottom: 2rem;
 }
 
-.title {
+.homeTitle {
 	margin-bottom: 3rem;
+	color: white;
 }
 
 @media screen and (max-width: 900px) {
@@ -101,4 +102,5 @@ code {
 
 .col h5 {
 	margin-bottom: 1rem;
+	margin-top: 2rem;
 }
