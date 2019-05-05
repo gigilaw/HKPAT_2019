@@ -8,7 +8,7 @@ class ResultsW extends Component {
 					width="70%"
 					height="650px"
 					float="middle"
-					border="none"
+					frameBorder="0"
 					scrolling="auto"
 					id="resultsW"
 					wmode="transparent"
