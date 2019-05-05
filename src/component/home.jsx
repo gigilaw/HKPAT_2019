@@ -13,7 +13,7 @@ class Home extends Component {
 			<div>
 				<div className="container homeTitle">
 					<div className="row">
-						<div className="col align">
+						<div className="col">
 							<img className="title img-fluid" src={title} alt="title" />
 						</div>
 					</div>
