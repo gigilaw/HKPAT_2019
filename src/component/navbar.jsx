@@ -59,8 +59,8 @@ class NavBar extends Component {
 								</Link>
 								<div
 									className="dropdown-menu"
+									name="mobile"
 									aria-labelledby="navbarDropdown"
-									data-toggle="collapse"
 									data-target="#navbarNav"
 								>
 									<Link to={link.href1} className="dropdown-item">
@@ -73,11 +73,7 @@ class NavBar extends Component {
 							</li>
 						))}
 						{links.map(link => (
-							<li
-								className="nav-item"
-								data-toggle="collapse"
-								data-target="#navbarNav"
-							>
+							<li className="nav-item" name="mobile" data-target="#navbarNav">
 								<Link className="nav-link" to={link.href}>
 									{link.name}
 								</Link>
