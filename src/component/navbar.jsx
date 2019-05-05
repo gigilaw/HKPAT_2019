@@ -52,6 +52,7 @@ class NavBar extends Component {
 									id="navbarDropdown"
 									role="button"
 									data-toggle="dropdown"
+									data-target=".navbar-collapse.show"
 									aria-haspopup="true"
 									aria-expanded="false"
 								>
