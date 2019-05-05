@@ -33,7 +33,7 @@ class Party extends Component {
 								<div className="divStyle">
 									<span className="spanStyle">
 										<a href={map}>
-											<i class="fas fa-map-marker-alt fa-2x map" />
+											<i className="fas fa-map-marker-alt fa-2x map" />
 											<span className="spanStyle">
 												<h5 className="inline address">{location.address}</h5>
 											</span>

@@ -11,8 +11,8 @@ class Spirit extends Component {
 						height="650px"
 						float="middle"
 						frameBorder="0"
-						marginheight="0"
-						marginwidth="0"
+						marginHeight="0"
+						marginWidth="0"
 						scrolling="auto"
 						src="https://docs.google.com/forms/d/e/1FAIpQLScN8EujkiqBhtTt-26JLilW41FVfgIb01Cew1IHq_S_DTF_kQ/viewform?embedded=true"
 					>
