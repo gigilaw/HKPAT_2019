@@ -14,7 +14,6 @@ class ResultsO extends Component {
 					wmode="transparent"
 					src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTXd2_tG0ff898hd3Etb4opovA15KwfCPD0O4lexKb0ZtOOUgJRoI3LYQg0tRUOwWKY_ldKrGLsDf0p/pubhtml?gid=1643756184&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"
 				/>
-				/>
 			</div>
 		)
 	}
