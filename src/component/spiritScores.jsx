@@ -5,7 +5,7 @@ class Spirit extends Component {
 		return (
 			<div>
 				<div className="container title">
-					<h2>Spirt Scores</h2>
+					<h1>Spirit Score Submission</h1>
 					<iframe
 						width="100%"
 						height="650px"
