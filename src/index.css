@@ -61,3 +61,29 @@ code {
 	margin: 0 2rem;
 	color: white;
 }
+
+.logo1 {
+	max-width: 10rem;
+	height: 10rem;
+}
+.Yikun {
+	width: 10rem;
+	height: 6rem;
+}
+.CJ {
+	width: 16rem;
+	height: 10rem;
+}
+.TipTop {
+	width: 22rem;
+	height: 6rem;
+}
+.home {
+	margin-top: 3rem;
+	margin-bottom: 5rem;
+}
+
+.title {
+	max-width: 75%;
+	margin-bottom: 3rem;
+}
