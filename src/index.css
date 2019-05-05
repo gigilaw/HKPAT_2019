@@ -56,3 +56,8 @@ code {
 .divStyle {
 	margin-bottom: 40px;
 }
+
+.icon {
+	margin: 0 2rem;
+	color: white;
+}
