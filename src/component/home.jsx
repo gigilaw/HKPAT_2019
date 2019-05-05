@@ -13,34 +13,34 @@ class Home extends Component {
 			<div>
 				<div className="container title">
 					<div className="row">
-						<div className="col-12">
+						<div className="col align">
 							<img className="title img-fluid" src={title} alt="title" />
 						</div>
 					</div>
 					<div className="row">
-						<div className="col-4">
+						<div className="col">
 							<h5>Co-Organized By:</h5>
-							<img className="logo1" src={HKUPA} alt="SFOC" />
+							<img className="logo1 img-fluid" src={HKUPA} alt="SFOC" />
 						</div>
-						<div className="col-4">
+						<div className="col">
 							<h5>Organized By:</h5>
-							<img className="logo1" src={SFOC} alt="SFOC" />
+							<img className="logo1 img-fluid" src={SFOC} alt="SFOC" />
 						</div>
-						<div className="col-4">
+						<div className="col">
 							<h5>Subvented By:</h5>
-							<img className="logo1" src={LCSD} alt="SFOC" />
+							<img className="logo1 img-fluid" src={LCSD} alt="SFOC" />
 						</div>
 					</div>
 					<div className="row">
-						<div className="col-12 home">
+						<div className="col home">
 							<h5>Thank you to our sponsors!</h5>
-							<img className="Yikun" src={Yikun} alt="Yikun" />
-							<img className="CJ" src={CJ} alt="CJ" />
-							<img className="TipTop" src={TipTop} alt="TipTop" />
+							<img className="Yikun img-fluid" src={Yikun} alt="Yikun" />
+							<img className="CJ img-fluid" src={CJ} alt="CJ" />
+							<img className="TipTop img-fluid" src={TipTop} alt="TipTop" />
 						</div>
 					</div>
 					<div className="row">
-						<div className="col-12">
+						<div className="col">
 							<h5>Follow HKUPA for more info about our future events!</h5>
 							<a href="https://www.facebook.com/hkupa/">
 								<i class="fab fa-facebook-square fa-2x icon" />

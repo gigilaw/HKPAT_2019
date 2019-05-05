@@ -80,10 +80,25 @@ code {
 }
 .home {
 	margin-top: 3rem;
-	margin-bottom: 5rem;
+	margin-bottom: 2rem;
 }
 
 .title {
-	max-width: 75%;
 	margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 900px) {
+	.title {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.title {
+		width: 70%;
+	}
+}
+
+.col h5 {
+	margin-bottom: 1rem;
 }
