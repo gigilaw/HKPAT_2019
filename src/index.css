@@ -12,6 +12,7 @@ body {
 .title {
 	color: white;
 	margin-top: 20px;
+	margin-bottom: 3rem;
 }
 
 .card-img-top {
@@ -81,11 +82,6 @@ code {
 .home {
 	margin-top: 3rem;
 	margin-bottom: 2rem;
-}
-
-.title {
-	margin-bottom: 3rem;
-	color: white;
 }
 
 @media screen and (max-width: 900px) {
