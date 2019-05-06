@@ -12,6 +12,7 @@ import Spirit from './component/spiritScores'
 import Field from './component/field'
 import Party from './component/party'
 import Contact from './component/contacts'
+import Rules from './component/rules'
 
 function App() {
 	return (
@@ -24,6 +25,7 @@ function App() {
 					<Route exact path="/schedule/sunday" component={sunSchedule} />
 					<Route exact path="/results/opens" component={ResultsO} />
 					<Route exact path="/results/womens" component={ResultsW} />
+					<Route exact path="/rules" component={Rules} />
 					<Route exact path="/spirit" component={Spirit} />
 					<Route exact path="/field" component={Field} />
 					<Route exact path="/party" component={Party} />
