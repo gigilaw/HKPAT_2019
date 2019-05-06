@@ -5,8 +5,8 @@ class sunSchedule extends Component {
 		return (
 			<div className="col-xs" style={{ marginTop: '40px' }}>
 				<iframe
-					width="87%"
-					height="470px"
+					width="90%"
+					height="400px"
 					float="middle"
 					frameBorder="0"
 					scrolling="auto"

@@ -5,7 +5,7 @@ class ResultsW extends Component {
 		return (
 			<div className="col-xs" style={{ marginTop: '40px', overflow: 'hidden' }}>
 				<iframe
-					width="70%"
+					width="90%"
 					height="650px"
 					float="middle"
 					frameBorder="0"

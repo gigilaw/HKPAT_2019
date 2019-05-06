@@ -5,8 +5,8 @@ class satSchedule extends Component {
 		return (
 			<div className="col-xs" style={{ marginTop: '40px' }}>
 				<iframe
-					width="80%"
-					height="470px"
+					width="90%"
+					height="500px"
 					float="middle"
 					frameBorder="0"
 					scrolling="auto"

@@ -5,7 +5,7 @@ class ResultsO extends Component {
 		return (
 			<div className="col-xs" style={{ marginTop: '40px' }}>
 				<iframe
-					width="80%"
+					width="90%"
 					height="950px"
 					float="middle"
 					frameBorder="0"
