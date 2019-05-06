@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import fieldlayout from '../logos/FieldLayout.png'
+import satlunch from '../logos/SatLunch.jpeg'
+import sunlunch from '../logos/SunLunch.jpeg'
 
 const fields = [
 	{
@@ -7,6 +9,13 @@ const fields = [
 		address: '63 Boundary St, Prince Edward',
 	},
 	{ name: '大坑東遊樂場', address: '太子 界限街 36號' },
+]
+
+const foodInfo = [
+	{ message: 'Breakfast served at field from 7:30am' },
+	{
+		message: 'Present your lunch tickets (included in players pack) for lunch',
+	},
 ]
 
 const map =
@@ -19,17 +28,17 @@ class Field extends Component {
 				<div className="row">
 					<div className="col-lg-6">
 						<div className="divStyle">
-							<h1>Field Location</h1>
+							<h2>Field Location</h2>
 						</div>
 						{fields.map(field => (
 							<div>
-								<h4>{field.name}</h4>
+								<h5>{field.name}</h5>
 								<div className="divStyle">
 									<span className="spanStyle">
 										<a className="inline" href={map}>
 											<i className="fas fa-map-marker-alt fa-2x map" />
 											<span className="spanStyle">
-												<h5 className="inline address">{field.address}</h5>
+												<h6 className="inline address">{field.address}</h6>
 											</span>
 										</a>
 									</span>
@@ -37,15 +46,38 @@ class Field extends Component {
 							</div>
 						))}
 						<div className="divStyle">
-							<h4>Closest MTR Exit: Prince Edward A1</h4>
+							<h2>Food Info</h2>
+						</div>
+						{foodInfo.map(info => (
+							<div className="divStyle">
+								<h5>{info.message}</h5>
+							</div>
+						))}
+						<div className="divStyle">
+							<img
+								id="satTicket"
+								className="img-fluid tickets"
+								src={satlunch}
+								alt="Sat Lunch"
+							/>
+							<img
+								className="img-fluid tickets"
+								src={sunlunch}
+								alt="Sun Lunch"
+							/>
 						</div>
 					</div>
 					<div className="col-lg-6">
 						<div className="divStyle">
-							<h1>Field Layout</h1>
+							<h2>Field Layout</h2>
 						</div>
 						<div>
-							<img id="layout" src={fieldlayout} alt="Field Layout" />
+							<img
+								id="layout"
+								className="img-fluid"
+								src={fieldlayout}
+								alt="Field Layout"
+							/>
 						</div>
 					</div>
 				</div>

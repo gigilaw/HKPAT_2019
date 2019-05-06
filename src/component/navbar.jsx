@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const links = [
 	{ href: '/spirit', name: 'Spirit Scores' },
-	{ href: '/field', name: 'Field Location' },
+	{ href: '/field', name: 'Field & Food Info' },
 	{ href: '/party', name: 'Party Info' },
 	{ href: '/contact', name: 'Contact Us' },
 ]
