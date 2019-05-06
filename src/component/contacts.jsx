@@ -5,7 +5,7 @@ const contacts = [
 		name: 'Derek Cheng',
 		src: 'http://i65.tinypic.com/2re031x.jpg',
 		href: 'https://wa.me/85255716292',
-		alt: 'Derek Cheung',
+		alt: 'Derek Cheng',
 	},
 	{
 		name: 'Tom Chung',
