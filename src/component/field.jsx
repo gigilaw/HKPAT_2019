@@ -38,7 +38,7 @@ class Field extends Component {
 										<a className="inline" href={map}>
 											<i className="fas fa-map-marker-alt fa-2x map" />
 											<span className="spanStyle">
-												<h6 className="inline address">{field.address}</h6>
+												<h6 className="inline underline">{field.address}</h6>
 											</span>
 										</a>
 									</span>
