@@ -65,7 +65,7 @@ class Party extends Component {
 							<h2>Party Theme</h2>
 						</div>
 						<div>
-							<img id="DD" src={DD} alt="Party Theme" />
+							<img id="DD" className="img-fluid" src={DD} alt="Party Theme" />
 						</div>
 					</div>
 				</div>
