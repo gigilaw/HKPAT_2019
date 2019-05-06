@@ -15,6 +15,11 @@ body {
 	margin-bottom: 3rem;
 }
 
+.conTitle {
+	color: white;
+	margin-top: 20px;
+}
+
 .card-img-top {
 	width: 15rem;
 	height: 20rem;
@@ -103,4 +108,12 @@ code {
 
 .map {
 	padding-right: 0.5rem;
+}
+
+.tickets {
+	width: 10rem;
+	height: 5.5rem;
+}
+#satTicket {
+	margin-right: 1rem;
 }

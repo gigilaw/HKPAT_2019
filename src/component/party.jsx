@@ -46,12 +46,13 @@ class Party extends Component {
 						))}
 						<div className="divStyle">
 							<h2>Party Info</h2>
-
-							{partyDetails.map(party => (
-								<div>
-									<h5>{party.message}</h5>
-								</div>
-							))}
+						</div>
+						{partyDetails.map(party => (
+							<div className="divStyle">
+								<h5>{party.message}</h5>
+							</div>
+						))}
+						<div className="divStyle">
 							<img
 								id="band"
 								className="img-fluid"
