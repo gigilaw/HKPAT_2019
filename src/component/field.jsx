@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import fieldlayout from '../logos/FieldLayout.png'
 
 const fields = [
 	{
@@ -44,11 +45,7 @@ class Field extends Component {
 							<h1>Field Layout</h1>
 						</div>
 						<div>
-							<img
-								id="layout"
-								src="https://s3-ap-southeast-1.amazonaws.com/ultimateproject/HKHAG2019/Field+Layout.png"
-								alt="Field Layout"
-							/>
+							<img id="layout" src={fieldlayout} alt="Field Layout" />
 						</div>
 					</div>
 				</div>

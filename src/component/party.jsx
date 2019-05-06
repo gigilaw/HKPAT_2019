@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import DD from '../logos/DD.jpg'
 
 const partyDetails = [
 	{ message: 'Closest MTR Exit: Jordan B1' },
@@ -53,11 +54,7 @@ class Party extends Component {
 							<h1>Party Theme</h1>
 						</div>
 						<div>
-							<img
-								id="DD"
-								src="https://s3-ap-southeast-1.amazonaws.com/ultimateproject/HKHAG2019/Dynamic+duo.jpg"
-								alt="Party Theme"
-							/>
+							<img id="DD" src={DD} alt="Party Theme" />
 						</div>
 					</div>
 				</div>
