@@ -73,8 +73,8 @@ code {
 	height: 10rem;
 }
 .Yikun {
-	width: 10rem;
-	height: 6rem;
+	width: 9.5rem;
+	height: 7.5rem;
 }
 .CJ {
 	width: 16rem;
@@ -101,6 +101,18 @@ code {
 	}
 }
 
+@media screen and (min-width: 366px) {
+	#satTicket {
+		margin-right: 1rem;
+	}
+}
+
+@media screen and (max-width: 437px) {
+	.TipTop {
+		margin-top: -2rem;
+	}
+}
+
 .col h5 {
 	margin-bottom: 1rem;
 	margin-top: 2rem;
@@ -113,9 +125,6 @@ code {
 .tickets {
 	width: 10rem;
 	height: 5.5rem;
-}
-#satTicket {
-	margin-right: 1rem;
 }
 
 .leftAlign {
