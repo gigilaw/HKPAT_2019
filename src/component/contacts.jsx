@@ -1,5 +1,20 @@
 import React, { Component } from 'react'
 
+const contacts = [
+	{
+		name: 'Derek Cheng',
+		src: 'http://i65.tinypic.com/2re031x.jpg',
+		href: 'https://wa.me/85255716292',
+		alt: 'Derek Cheung',
+	},
+	{
+		name: 'Tom Chung',
+		src: 'http://i63.tinypic.com/21erk93.jpg',
+		href: 'https://wa.me/85292275540',
+		alt: 'Tom Chung',
+	},
+]
+
 class Contact extends Component {
 	render() {
 		return (
@@ -11,32 +26,21 @@ class Contact extends Component {
 				<div className="container">
 					<div className="row">
 						<div className="card-deck">
-							<div className="card">
-								<img
-									className="card-img-top"
-									src="http://i65.tinypic.com/2re031x.jpg"
-									alt="Derek Cheng"
-								/>
-								<div className="card-body">
-									<h4 className="card-title">Derek Cheng</h4>
-									<a href="https://wa.me/85255716292">
-										<i className="fab fa-whatsapp fa-2x" />
-									</a>
+							{contacts.map(contact => (
+								<div className="card">
+									<img
+										className="card-img-top"
+										src={contact.src}
+										alt={contact.alt}
+									/>
+									<div className="card-body">
+										<h4 className="card-title">{contact.name}</h4>
+										<a href={contact.href}>
+											<i className="fab fa-whatsapp fa-2x" />
+										</a>
+									</div>
 								</div>
-							</div>
-							<div className="card">
-								<img
-									className="card-img-top"
-									src="http://i63.tinypic.com/21erk93.jpg"
-									alt="Card image cap"
-								/>
-								<div className="card-body">
-									<h4 className="card-title">Tom Chung</h4>
-									<a href="https://wa.me/85292275540">
-										<i className="fab fa-whatsapp fa-2x" />
-									</a>
-								</div>
-							</div>
+							))}
 						</div>
 					</div>
 				</div>
