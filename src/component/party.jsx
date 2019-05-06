@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import DD from '../logos/DD.jpg'
+import band from '../logos/partyband.jpeg'
 
 const partyDetails = [
 	{ message: 'Closest MTR Exit: Jordan B1' },
-	{ message: 'Time: May 11th, 9:00pm - 1:00am' },
-	{ message: 'Few drinks provided but eat before~' },
+	{ message: 'May 11th, 9:00pm - 1:00am' },
+	{ message: 'Only those with wristbands will be allowed entry' },
 ]
 const locationDetails = [
 	{
@@ -26,32 +27,42 @@ class Party extends Component {
 				<div className="row">
 					<div className="col-lg-6">
 						<div className="divStyle">
-							<h1>Party Location</h1>
+							<h2>Party Location</h2>
 						</div>
 						{locationDetails.map(location => (
 							<div>
-								<h4>{location.name}</h4>
+								<h5>{location.name}</h5>
 								<div className="divStyle">
 									<span className="spanStyle">
 										<a href={map}>
 											<i className="fas fa-map-marker-alt fa-2x map" />
 											<span className="spanStyle">
-												<h5 className="inline address">{location.address}</h5>
+												<h6 className="inline address">{location.address}</h6>
 											</span>
 										</a>
 									</span>
 								</div>
 							</div>
 						))}
-						{partyDetails.map(party => (
-							<div>
-								<h4>{party.message}</h4>
-							</div>
-						))}
+						<div className="divStyle">
+							<h2>Party Info</h2>
+
+							{partyDetails.map(party => (
+								<div>
+									<h5>{party.message}</h5>
+								</div>
+							))}
+							<img
+								id="band"
+								className="img-fluid"
+								src={band}
+								alt="Party Band"
+							/>
+						</div>
 					</div>
 					<div className="col-lg-6">
 						<div className="divStyle">
-							<h1>Party Theme</h1>
+							<h2>Party Theme</h2>
 						</div>
 						<div>
 							<img id="DD" src={DD} alt="Party Theme" />
