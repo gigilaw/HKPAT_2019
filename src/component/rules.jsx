@@ -4,11 +4,6 @@ class Rules extends Component {
 	render() {
 		return (
 			<div className="container title">
-				<div className="row">
-					<div className="col">
-						<h2>Rules</h2>
-					</div>
-				</div>
 				<div className="row leftAlign">
 					<div className="col">
 						<h4 className="underline">General Rules</h4>
