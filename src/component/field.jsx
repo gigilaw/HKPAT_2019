@@ -73,8 +73,7 @@ class Field extends Component {
 						</div>
 						<div>
 							<img
-								id="layout"
-								className="img-fluid"
+								className="img-fluid maxWidth"
 								src={fieldlayout}
 								alt="Field Layout"
 							/>

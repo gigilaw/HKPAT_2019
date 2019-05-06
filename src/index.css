@@ -42,11 +42,7 @@ code {
 		monospace;
 }
 
-#layout {
-	max-width: 100%;
-}
-
-#DD {
+.maxWidth {
 	max-width: 100%;
 }
 
