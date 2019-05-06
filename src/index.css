@@ -70,21 +70,31 @@ code {
 }
 .Yikun {
 	width: 9rem;
-	height: 7rem;
 }
 .CJ {
 	width: 16rem;
-	height: 10rem;
 }
 .TipTop {
 	width: 22rem;
-	height: 6rem;
+}
+
+.Grove {
+	width: 12rem;
+}
+
+.Weuse {
+	width: 10rem;
 }
 .home {
 	margin-top: 3rem;
 	margin-bottom: 2rem;
 }
 
+@media screen and (max-width: 366px) {
+	.Grove {
+		margin-top: 1rem;
+	}
+}
 @media screen and (max-width: 900px) {
 	.title {
 		width: 100%;
@@ -100,12 +110,6 @@ code {
 @media screen and (min-width: 366px) {
 	#satTicket {
 		margin-right: 1rem;
-	}
-}
-
-@media screen and (max-width: 437px) {
-	.TipTop {
-		margin-top: -2rem;
 	}
 }
 
@@ -125,4 +129,8 @@ code {
 
 .leftAlign {
 	text-align: left;
+}
+
+.footer {
+	color: white;
 }
