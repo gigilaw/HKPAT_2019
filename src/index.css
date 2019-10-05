@@ -63,56 +63,83 @@ code {
 	color: white;
 }
 
-.logo1 {
-	max-width: 4rem;
-}
-.Yikun {
-	width: 4rem;
-}
-.CJ {
-	width: 6rem;
-}
-.TipTop {
-	width: 15rem;
-}
-
-.Grove {
-	width: 6rem;
-}
-
-.Weuse {
-	width: 5rem;
-}
 .home {
 	margin-top: 3rem;
 	margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 366px) {
-	.Grove {
-		margin-top: 1rem;
-	}
-}
-@media screen and (min-width: 397px) {
-	.Grove {
-		margin-left: 2rem;
-	}
-}
 @media screen and (max-width: 900px) {
 	.title {
 		width: 100%;
+	}
+	.Grove {
+		margin-top: 1rem;
+		width: 6rem;
+	}
+	.Weuse {
+		margin-left: 0.5rem;
+		margin-top: 1rem;
+		width: 5rem;
+	}
+	.Yikun {
+		margin-left: 0.7rem;
+		width: 4rem;
+	}
+	.CJ {
+		width: 7rem;
+	}
+	.TipTop {
+		width: 15rem;
+	}
+	.logo1 {
+		max-width: 4rem;
+	}
+	.Greatest {
+		width: 5rem;
 	}
 }
 
 @media screen and (min-width: 900px) {
 	.title {
-		width: 70%;
+		width: 90%;
 	}
-}
-
-@media screen and (min-width: 366px) {
-	#satTicket {
-		margin-right: 1rem;
+	.Grove {
+		margin-top: 1rem;
+		width: 10rem;
+		margin: 1rem 1rem 0rem 1rem;
+	}
+	.Weuse {
+		margin-left: 0.5rem;
+		margin-top: 1rem;
+		width: 9rem;
+	}
+	.Yikun {
+		margin-left: 0.7rem;
+		width: 8rem;
+	}
+	.CJ {
+		width: 15rem;
+	}
+	.TipTop {
+		width: 27rem;
+	}
+	.logo1 {
+		max-width: 10rem;
+	}
+	.Greatest {
+		width: 9rem;
+	}
+	.hkupa {
+		margin-left: 10rem;
+	}
+	.lcsd {
+		margin-right: 10rem;
+	}
+	#hkupa {
+		width: 8rem;
+	}
+	#lcsd {
+		width: 9.5rem;
 	}
 }
 
@@ -146,4 +173,8 @@ code {
 
 .site-content {
 	flex: 1;
+}
+
+.navbar {
+	margin-bottom: 2rem;
 }

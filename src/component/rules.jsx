@@ -7,7 +7,10 @@ class Rules extends Component {
 				<div className="row leftAlign">
 					<div className="col">
 						<h4 className="underline">General Rules</h4>
-						<p>- WFDF Rules of Ultimate 2017</p>
+						<p>
+							-
+							<a href="https://rules.wfdf.org/"> WFDF Rules of Ultimate 2017</a>
+						</p>
 						<p>- Pooly play, placement, and semis - 60mins long</p>
 						<p>- Finals 70mins long</p>
 						<p>

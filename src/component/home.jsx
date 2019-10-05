@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import HKUPA from '../logos/HKUPA.png'
-import SFOC from '../logos/SFOC.png'
 import LCSD from '../logos/LCSD.png'
 import Yikun from '../logos/Yikun.png'
 import CJ from '../logos/CJ.png'
@@ -8,11 +7,13 @@ import TipTop from '../logos/TipTop.png'
 import HKPAT from '../logos/HKPAT_2019.jpg'
 import Grove from '../logos/grove.png'
 import Weuse from '../logos/weuse.png'
+import greatest from '../logos/greatest.png'
 
 const sponsors = [
+	{ name: 'CJ img-fluid', src: CJ, alt: 'CJ' },
+	{ name: 'Greatest img-fluid', src: greatest, alt: 'Greatest Bag' },
 	{ name: 'Yikun img-fluid', src: Yikun, alt: 'Yikun' },
 	{ name: 'Grove img-fluid', src: Grove, alt: 'Grove' },
-	{ name: 'CJ img-fluid', src: CJ, alt: 'CJ' },
 	{ name: 'Weuse img-fluid', src: Weuse, alt: 'Weuse' },
 	{ name: 'TipTop img-fluid', src: TipTop, alt: 'TipTop' },
 ]
@@ -27,17 +28,23 @@ class Home extends Component {
 						</div>
 					</div>
 					<div className="row">
-						<div className="col">
-							<h6>Co-Organized By:</h6>
-							<img className="logo1 img-fluid" src={HKUPA} alt="HKUPA" />
-						</div>
-						<div className="col">
+						<div className="col hkupa">
 							<h6>Organized By:</h6>
-							<img className="logo1 img-fluid" src={SFOC} alt="SFOC" />
+							<img
+								id="hkupa"
+								className="logo1 img-fluid"
+								src={HKUPA}
+								alt="HKUPA"
+							/>
 						</div>
-						<div className="col">
+						<div className="col lcsd">
 							<h6>Subvented By:</h6>
-							<img className="logo1 img-fluid" src={LCSD} alt="LCSD" />
+							<img
+								id="lcsd"
+								className="logo1 img-fluid"
+								src={LCSD}
+								alt="LCSD"
+							/>
 						</div>
 					</div>
 					<div className="row">
