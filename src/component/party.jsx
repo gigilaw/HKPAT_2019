@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
-import DD from '../logos/DD.jpg'
-import band from '../logos/partyband.jpeg'
+import ST_1 from '../logos/ST_1.png'
+import ST_3 from '../logos/ST_3.png'
+import band from '../logos/HKPAT_wristband.png'
 
 const partyDetails = [
 	{ message: 'Closest MTR Exit: Jordan B1' },
-	{ message: 'May 11th, 9:00pm - 1:00am' },
-	{ message: 'Only those with wristbands will be allowed entry' },
+	{ message: 'Oct 12th, 9:30pm' },
+	{ message: 'Drinks provided but eat before!' },
+	{ message: 'Only wristbands wearers will be allowed entry' },
+	{ message: '10% off additional drinks for those with wristbands' },
 ]
 const locationDetails = [
 	{
@@ -49,7 +52,7 @@ class Party extends Component {
 						</div>
 						{partyDetails.map(party => (
 							<div className="divStyle">
-								<h5>{party.message}</h5>
+								<h6>{party.message}</h6>
 							</div>
 						))}
 						<div className="divStyle">
@@ -66,7 +69,16 @@ class Party extends Component {
 							<h2>Party Theme</h2>
 						</div>
 						<div>
-							<img className="img-fluid maxWidth" src={DD} alt="Party Theme" />
+							<img
+								className="img-fluid maxWidth"
+								src={ST_1}
+								alt="Party Theme"
+							/>
+							<img
+								className="img-fluid maxWidth"
+								src={ST_3}
+								alt="Party Theme"
+							/>
 						</div>
 					</div>
 				</div>

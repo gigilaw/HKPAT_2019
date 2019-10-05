@@ -5,7 +5,7 @@ import LCSD from '../logos/LCSD.png'
 import Yikun from '../logos/Yikun.png'
 import CJ from '../logos/CJ.png'
 import TipTop from '../logos/TipTop.png'
-import title from '../logos/title.png'
+import HKPAT from '../logos/HKPAT_2019.jpg'
 import Grove from '../logos/grove.png'
 import Weuse from '../logos/weuse.png'
 
@@ -23,26 +23,26 @@ class Home extends Component {
 				<div className="container title">
 					<div className="row">
 						<div className="col">
-							<img className="title img-fluid" src={title} alt="title" />
+							<img className="title img-fluid" src={HKPAT} alt="HKPAT" />
 						</div>
 					</div>
 					<div className="row">
 						<div className="col">
-							<h5>Co-Organized By:</h5>
+							<h6>Co-Organized By:</h6>
 							<img className="logo1 img-fluid" src={HKUPA} alt="HKUPA" />
 						</div>
 						<div className="col">
-							<h5>Organized By:</h5>
+							<h6>Organized By:</h6>
 							<img className="logo1 img-fluid" src={SFOC} alt="SFOC" />
 						</div>
 						<div className="col">
-							<h5>Subvented By:</h5>
+							<h6>Subvented By:</h6>
 							<img className="logo1 img-fluid" src={LCSD} alt="LCSD" />
 						</div>
 					</div>
 					<div className="row">
 						<div className="col home">
-							<h5>Thank you to our sponsors!</h5>
+							<h6>Thank you to our sponsors!</h6>
 							{sponsors.map(sponsor => (
 								<img
 									className={sponsor.name}
@@ -54,7 +54,7 @@ class Home extends Component {
 					</div>
 					<div className="row">
 						<div className="col">
-							<h5>Follow HKUPA for more info about our future events!</h5>
+							<h6>Follow HKUPA for more info!</h6>
 							<a href="https://www.facebook.com/hkupa/">
 								<i class="fab fa-facebook-square fa-2x icon" />
 							</a>

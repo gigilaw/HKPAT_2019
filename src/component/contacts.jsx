@@ -1,15 +1,17 @@
 import React, { Component } from 'react'
+import tom from '../logos/tom.jpg'
+import derek from '../logos/derek.jpg'
 
 const contacts = [
 	{
 		name: 'Derek Cheng',
-		src: 'http://i65.tinypic.com/2re031x.jpg',
+		src: derek,
 		href: 'https://wa.me/85255716292',
 		alt: 'Derek Cheng',
 	},
 	{
 		name: 'Tom Chung',
-		src: 'http://i63.tinypic.com/21erk93.jpg',
+		src: tom,
 		href: 'https://wa.me/85292275540',
 		alt: 'Tom Chung',
 	},

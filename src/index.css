@@ -6,13 +6,12 @@ body {
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: #282c34;
+	background-color: #0b0b0b;
 }
 
 .title {
 	color: white;
-	margin-top: 20px;
-	margin-bottom: 3rem;
+	margin-bottom: 1rem;
 }
 
 .conTitle {
@@ -29,11 +28,11 @@ body {
 
 .card-deck {
 	margin: 20px auto;
-	background-color: #282c34;
+	background-color: #0b0b0b;
 }
 .card {
-	background-color: #282c34;
-	border-color: #282c34;
+	background-color: #0b0b0b;
+	border-color: #0b0b0b;
 	color: white;
 	margin: 0;
 }
@@ -65,25 +64,24 @@ code {
 }
 
 .logo1 {
-	max-width: 10rem;
-	height: 10rem;
+	max-width: 4rem;
 }
 .Yikun {
-	width: 9rem;
+	width: 4rem;
 }
 .CJ {
-	width: 16rem;
+	width: 6rem;
 }
 .TipTop {
-	width: 25rem;
+	width: 15rem;
 }
 
 .Grove {
-	width: 12rem;
+	width: 6rem;
 }
 
 .Weuse {
-	width: 10rem;
+	width: 5rem;
 }
 .home {
 	margin-top: 3rem;

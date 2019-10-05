@@ -2,9 +2,10 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
 const links = [
+	{ href: '/results', name: 'Results' },
 	{ href: '/rules', name: 'Rules' },
 	{ href: '/spirit', name: 'Spirit Scores' },
-	{ href: '/field', name: 'Field & Food Info' },
+	{ href: '/field', name: 'Field & General Info' },
 	{ href: '/party', name: 'Party Info' },
 	{ href: '/contact', name: 'Contact Us' },
 ]
@@ -17,20 +18,13 @@ const dropdownLinks = [
 		name1: 'Saturday',
 		name2: 'Sunday',
 	},
-	{
-		category: 'Results',
-		href1: '/results/opens',
-		href2: '/results/womens',
-		name1: 'Opens',
-		name2: "Women's",
-	},
 ]
 class NavBar extends Component {
 	render() {
 		return (
 			<nav className="navbar navbar-expand-lg navbar-light bg-light">
 				<Link className="navbar-brand" to="/">
-					HKHAG2019
+					HKPAT2019
 				</Link>
 				<button
 					className="navbar-toggler"

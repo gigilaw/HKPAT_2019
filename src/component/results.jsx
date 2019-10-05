@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class ResultsO extends Component {
+class Results extends Component {
 	render() {
 		return (
 			<div className="col-xs" style={{ marginTop: '40px' }}>
@@ -19,4 +19,4 @@ class ResultsO extends Component {
 	}
 }
 
-export default ResultsO
+export default Results

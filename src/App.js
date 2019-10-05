@@ -6,8 +6,7 @@ import NavBar from './component/navbar'
 import Home from './component/home'
 import satSchedule from './component/schedule/satSchedule'
 import sunSchedule from './component/schedule/sunSchedule'
-import ResultsW from './component/results/resultsW'
-import ResultsO from './component/results/resultsO'
+import Results from './component/results'
 import Spirit from './component/spiritScores'
 import Field from './component/field'
 import Party from './component/party'
@@ -23,8 +22,7 @@ function App() {
 					<Route exact path="/" component={Home} />
 					<Route exact path="/schedule/saturday" component={satSchedule} />
 					<Route exact path="/schedule/sunday" component={sunSchedule} />
-					<Route exact path="/results/opens" component={ResultsO} />
-					<Route exact path="/results/womens" component={ResultsW} />
+					<Route exact path="/results" component={Results} />
 					<Route exact path="/rules" component={Rules} />
 					<Route exact path="/spirit" component={Spirit} />
 					<Route exact path="/field" component={Field} />

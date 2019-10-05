@@ -8,12 +8,25 @@ class Rules extends Component {
 					<div className="col">
 						<h4 className="underline">General Rules</h4>
 						<p>- WFDF Rules of Ultimate 2017</p>
-						<p>- Finals 70 mins long</p>
-						<p>- 2nd day placement games, 50 mins long</p>
-						<p>- All other games, 60 mins long</p>
+						<p>- Pooly play, placement, and semis - 60mins long</p>
+						<p>- Finals 70mins long</p>
 						<p>
 							- Games to 13 pts or Time Cap, Semis and Finals to 15 pts or Time
 							Cap
+						</p>
+						<p>- Gender ratio: Ratio Rule B (“end zone decides” rule)</p>
+					</div>
+				</div>
+				<div className="row leftAlign">
+					<div className="col">
+						<h4 className="underline">Time Cap Half</h4>
+						<p>
+							- If teams do not reach half-time by 45mins, finish point and time
+							cap half occurs
+						</p>
+						<p>
+							- No indications will be given, please inform the other captain if
+							this occurs
 						</p>
 					</div>
 				</div>
@@ -27,12 +40,9 @@ class Rules extends Component {
 				<div className="row leftAlign">
 					<div className="col">
 						<h4 className="underline">Time Outs</h4>
-						<p>- 1 TO per half per team</p>
-						<p>- 1 min TO</p>
-						<p>- No floater, +1 floater for finals</p>
-						<p>
-							- No TO can be called in last 5 mins of game and after time cap
-						</p>
+						<p>- 1 min TO, 1 per half, no floater</p>
+						<p>- Finals: +1 floater</p>
+						<p>- No TO after time cap</p>
 					</div>
 				</div>
 			</div>
