@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 const links = [
 	{ href: '/results', name: 'Results' },
 	{ href: '/rules', name: 'Rules' },
-	{ href: '/spirit', name: 'Spirit Scores' },
 	{ href: '/field', name: 'Field & General Info' },
 	{ href: '/party', name: 'Party Info' },
 	{ href: '/contact', name: 'Contact Us' },
@@ -17,6 +16,13 @@ const dropdownLinks = [
 		href2: '/schedule/sunday',
 		name1: 'Saturday',
 		name2: 'Sunday',
+	},
+	{
+		category: 'Spirit',
+		href1: '/spirit/submission',
+		href2: '/spirit/scores',
+		name1: 'Submit Scores',
+		name2: 'View Scores',
 	},
 ]
 class NavBar extends Component {

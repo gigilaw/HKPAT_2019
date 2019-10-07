@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import fieldlayout from '../logos/FieldLayout.jpeg'
+import ladiesMarket from '../logos/Ladies_market.png'
 
 const fields = [
 	{
@@ -43,13 +44,25 @@ class Field extends Component {
 								<h5>{info.message}</h5>
 							</div>
 						))}
+						<div>
+							<img
+								className="field img-fluid"
+								src={fieldlayout}
+								alt="Field Layout"
+							/>
+						</div>
+					</div>
+					<div className="col-lg-6">
 						<div className="divStyle">
 							<h2>Protest</h2>
-							<h6>- Avoid areas with protestors or be engaged with them</h6>
-							<h6>- DON"T take pictures of the protestors</h6>
 							<h6>
-								- Avoid going to Admiralty, Wan Chai, and Causeway Bay during
-								the weekend
+								- Avoid areas with protests and DON'T be engaged with or provoke
+								both the protestors and police
+							</h6>
+							<h6>- DON'T take pictures of the protestors and police</h6>
+							<h6>
+								- Avoid going to Admiralty, Wan Chai, and Causeway Bay, as well
+								as wander around Prince Edward
 							</h6>
 							<h6>
 								- Don't wear yellow helmets or face masks as your party dress
@@ -59,18 +72,19 @@ class Field extends Component {
 								- If Prince Edward station is suspended, there's an alternative
 								MTR station nearby, which is Shek Kip Mei MTR exit B1
 							</h6>
-						</div>
-					</div>
-					<div className="col-lg-6">
-						<div className="divStyle">
-							<h2>Field Layout</h2>
-						</div>
-						<div>
-							<img
-								className="img-fluid maxWidth"
-								src={fieldlayout}
-								alt="Field Layout"
-							/>
+							<h6>
+								- If all MTR stations are suspended, please refer to the map
+								below. It will take you to MongKok without walking into the main
+								protest area. You can locate Ladies Market on Google map and
+								walk via Sai Yee St.
+							</h6>
+							<div>
+								<img
+									className="ladiesMarket img-fluid"
+									src={ladiesMarket}
+									alt="Ladies Market"
+								/>
+							</div>
 						</div>
 					</div>
 				</div>
