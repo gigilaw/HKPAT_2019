@@ -101,8 +101,11 @@ code {
 		width: 60%;
 		margin-bottom: 2rem;
 	}
-	.ladiesMarket {
-		width: 70%;
+	.protest {
+		display: inline-block;
+	}
+	.protest img {
+		height: 13.5rem;
 		margin-top: 1rem;
 	}
 }
@@ -152,9 +155,12 @@ code {
 	.field {
 		width: 60%;
 	}
-	.ladiesMarket {
-		width: 80%;
-		margin-top: 2rem;
+	.protest {
+		display: inline-block;
+	}
+	.protest img {
+		height: 23rem;
+		margin-top: 1rem;
 	}
 }
 
